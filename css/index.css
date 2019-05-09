@@ -20,12 +20,12 @@ body {
 }
 
 .firstContent {
-    padding: 200px;
+    padding: 5vw;
     margin: auto;
 }
 
 .transparentImg {
-    width: 700px;
+    width: 500px;
     transform: rotate(20deg);
 }
 
@@ -108,10 +108,10 @@ body {
 }
 
 .carousel-item {
-    height: 1000px;
+    height: 100%;
 } 
 .carousel-item img{
-    height: 1000px;
+    height: 100%;
 }
 
 .carousel-caption {
