@@ -1,34 +1,871 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Merriweather|Pacifico|Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>-->
+
 </head>
+
 <body>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <div class="titleContainer"><h1 class="title">Token Ring</h1></div>
+                <div class="titleContainer">
+                    <h1 class="title">Token Ring</h1>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-            <div class="row">
-                <div class="col-6">
-                    
+    <div class="firstContent container-fluid">
+        <div class="row">
+            <div class="textcol col-sm-12 col-md-4 col-lg-4">
+                <h2 class="lowkeyTitle">Någon titel här (liten sammanfattning)</h2>
+                <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.</p><br>
+                <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.</p><br>
+                <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.</p>
+            </div>
+            <div class="imgCont col-sm-12 col-md-8 col-lg-8">
+                <img class="transparentImg" src="img/FrontTransparent.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="secondContent container-fluid">
+        <div class="row">
+            <div class="col-7">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="main-tab" data-toggle="tab" href="#main" role="tab"
+                            aria-controls="main" aria-selected="true">main.c</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="gamemanagerh-tab" data-toggle="tab" href="#gamemanagerh" role="tab"
+                            aria-controls="gamemanagerh" aria-selected="false">GameManager.h</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="gamemanagerc-tab" data-toggle="tab" href="#gamemanagerc" role="tab"
+                            aria-controls="gamemanagerc" aria-selected="false">GameManager.c</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="displayh-tab" data-toggle="tab" href="#displayh" role="tab"
+                            aria-controls="displayh" aria-selected="false">Display.h</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="displayc-tab" data-toggle="tab" href="#displayc" role="tab"
+                            aria-controls="displayc" aria-selected="false">Display.c</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="neopixelh-tab" data-toggle="tab" href="#neopixelh" role="tab"
+                            aria-controls="neopixelh" aria-selected="false">NeoPixel.h</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="neopixelc-tab" data-toggle="tab" href="#neopixelc" role="tab"
+                            aria-controls="neopixelc" aria-selected="false">NeoPixel.c</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="gamestringsh-tab" data-toggle="tab" href="#gamestringsh" role="tab"
+                            aria-controls="gamestringsh" aria-selected="false">GameStrings.h</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" id="NeoPixelTimings-tab" data-toggle="tab" href="#NeoPixelTimings" role="tab"
+                                aria-controls="NeoPixelTimings" aria-selected="false">NeoPixelTiming.s</a>
+                        </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="main" role="tabpanel" aria-labelledby="main-tab">
+                        <div
+                            style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+                            <pre style="margin: 0; line-height: 125%"><span style="color: #75715e">/*</span>
+                        <span style="color: #75715e"> * FourInARow.c</span>
+                        <span style="color: #75715e"> *</span>
+                        <span style="color: #75715e"> * Created: 2019-04-09 12:44:38</span>
+                        <span style="color: #75715e"> * Author : fe4242bo-s</span>
+                        <span style="color: #75715e"> */</span> 
+                        
+                        <span style="color: #75715e">#define F_CPU 8000000UL</span>
+                        
+                        <span style="color: #75715e">#include &lt;avr/io.h&gt;</span>
+                        <span style="color: #75715e">#include &lt;util/delay.h&gt;</span>
+                        <span style="color: #75715e">#include &lt;avr/interrupt.h&gt;</span>
+                        <span style="color: #75715e">#include &quot;Components/Display/Display.h&quot;</span>
+                        <span style="color: #75715e">#include &quot;Components/NeoPixels/NeoPixel.h&quot;</span>
+                        <span style="color: #75715e">#include &quot;GameManager.h&quot;</span>
+                        <span style="color: #75715e">//#include &quot;Constants/GameStrings.h&quot;</span>
+                        
+                        <span style="color: #75715e">/*</span>
+                        <span style="color: #75715e">NOTES TO PROGRAMMER!</span>
+                        
+                        <span style="color: #75715e"> - Hardcoded literals can be found in Constants/...</span>
+                        <span style="color: #75715e"> - When passing a char array into Display with SendString(...) you can add Q{command} for special operations.</span>
+                        <span style="color: #75715e"> - Some of these special operations are: Qn (jump to new line on LCD), Qt (display countdown timer on LCD), #CONSTANT padding CONSTANT amount in text.</span>
+                        <span style="color: #75715e"> - Maximum #n command is ONCE (obviously)</span>
+                        <span style="color: #75715e"> - Maximum #t command is ONCE Do not support more than 1 timer at the moment.</span>
+                        <span style="color: #75715e"> - Game buttons connected to --&gt; 14,15,16,17</span>
+                        <span style="color: #75715e">*/</span>
+                        
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">Reset</span><span style="color: #f8f8f2">();</span>
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">Send_One</span><span style="color: #f8f8f2">();</span>
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">Send_Zero</span><span style="color: #f8f8f2">();</span>
+                        
+                        
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">pressed</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">currentLight</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                        <span style="color: #f8f8f2">ISR(PCINT0_vect)</span> <span style="color: #f8f8f2">{</span>
+                        
+                            <span style="color: #f8f8f2">clearPixels();</span>
+                            <span style="color: #f8f8f2">setPixel(currentLight,</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">);</span>
+                        
+                        
+                            <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(PINA</span> <span style="color: #f92672">&amp;</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span> <span style="color: #f92672">&lt;&lt;</span> <span style="color: #f8f8f2">PINA0))</span> <span style="color: #f8f8f2">{</span>
+                                 <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(pressed)</span> <span style="color: #f8f8f2">{</span>
+                                     <span style="color: #f8f8f2">pressed</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                                 <span style="color: #f8f8f2">}</span> 
+                                 <span style="color: #66d9ef">else</span> <span style="color: #f8f8f2">{</span>
+                                     <span style="color: #f8f8f2">pressed</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span>
+                                     <span style="color: #66d9ef">if</span><span style="color: #f8f8f2">(currentLight</span> <span style="color: #f92672">==</span> <span style="color: #ae81ff">14</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                                        <span style="color: #f8f8f2">UpdatePoints();</span>
+                                     <span style="color: #f8f8f2">}</span> <span style="color: #66d9ef">else</span> <span style="color: #f8f8f2">{</span>
+                                        <span style="color: #f8f8f2">EndGame();</span>
+                                     <span style="color: #f8f8f2">}</span>
+                                     
+                                 <span style="color: #f8f8f2">}</span>
+                            <span style="color: #f8f8f2">}</span>
+                            <span style="color: #f8f8f2">PCIFR</span> <span style="color: #f92672">|=</span> <span style="color: #f8f8f2">PCIF0;</span> <span style="color: #75715e">// Do NOT remove! Will make sure we trigger button interrupt only once!</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">main(</span><span style="color: #66d9ef">void</span><span style="color: #f8f8f2">)</span>
+                        <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">cli();</span>
+                            <span style="color: #f8f8f2">LCD_init();</span>
+                            <span style="color: #f8f8f2">InitializeGame();</span>
+                            
+                            <span style="color: #f8f8f2">PCICR</span> <span style="color: #f92672">|=</span> <span style="color: #ae81ff">1</span> <span style="color: #f92672">&lt;&lt;</span> <span style="color: #f8f8f2">PCIE0;</span>
+                            <span style="color: #f8f8f2">sei();</span>
+                            <span style="color: #f8f8f2">PCMSK0</span> <span style="color: #f92672">|=</span> <span style="color: #ae81ff">1</span> <span style="color: #f92672">&lt;&lt;</span> <span style="color: #f8f8f2">PCINT0;</span>
+                            
+                            <span style="color: #75715e">// NEOPIXELS AFTER THIS</span>
+                        
+                            <span style="color: #f8f8f2">DDRD</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1</span> <span style="color: #f92672">&lt;&lt;</span> <span style="color: #f8f8f2">PORTD7;</span>
+                            <span style="color: #f8f8f2">PORTD</span> <span style="color: #f92672">&amp;=</span> <span style="color: #f92672">~</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span> <span style="color: #f92672">&lt;&lt;</span> <span style="color: #f8f8f2">PORTD7);</span>
+                                <span style="color: #66d9ef">while</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">)</span> 
+                                <span style="color: #f8f8f2">{</span>
+                                    
+                                    <span style="color: #66d9ef">for</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">currentLight;</span> <span style="color: #f8f8f2">i</span><span style="color: #f92672">&lt;</span><span style="color: #ae81ff">16</span> <span style="color: #f8f8f2">;i</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">){</span>
+                                        <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(pressed)</span> <span style="color: #66d9ef">break</span><span style="color: #f8f8f2">;</span>
+                                        <span style="color: #f8f8f2">currentLight</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">i;</span>
+                                        <span style="color: #f8f8f2">setPixel(i,</span> <span style="color: #f8f8f2">diffRValue(),diffGValue(),</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">);</span>
+                                        <span style="color: #f8f8f2">difficultyDelay();</span>
+                                        <span style="color: #f8f8f2">setPixel(i,</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">);</span>
+                                        <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(pressed)</span> <span style="color: #f8f8f2">setPixel(i,</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">);</span> <span style="color: #75715e">// Fixes the case where the pixel is set to zero if a button press is faster than the diffDelay.</span>
+                                    <span style="color: #f8f8f2">}</span>
+                                    <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(</span><span style="color: #f92672">!</span><span style="color: #f8f8f2">pressed)</span> <span style="color: #f8f8f2">currentLight</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                                <span style="color: #f8f8f2">}</span>
+                            
+                        <span style="color: #f8f8f2">}</span>
+                        </pre>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="gamemanagerh" role="tabpanel" aria-labelledby="gamemanagerh-tab">
+                        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">/*</span>
+<span style="color: #75715e"> * GameManager.h</span>
+<span style="color: #75715e"> *</span>
+<span style="color: #75715e"> * Created: 2019-05-08 13:27:11</span>
+<span style="color: #75715e"> *  Author: fe4242bo-s</span>
+<span style="color: #75715e"> */</span> 
+
+
+<span style="color: #75715e">#ifndef GAMEMANAGER_H_</span>
+<span style="color: #75715e">#define GAMEMANAGER_H_</span>
+
+ <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">uint8_t</span> <span style="color: #f8f8f2">difficulty;</span>
+
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">InitializeGame</span><span style="color: #f8f8f2">();</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">ResetGame</span><span style="color: #f8f8f2">();</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">UpdatePoints</span><span style="color: #f8f8f2">();</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">EndGame</span><span style="color: #f8f8f2">();</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">difficultyDelay</span><span style="color: #f8f8f2">();</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">updatePixel</span><span style="color: #f8f8f2">();</span>
+ <span style="color: #66d9ef">uint8_t</span> <span style="color: #a6e22e">diffRValue</span><span style="color: #f8f8f2">();</span>
+ <span style="color: #66d9ef">uint8_t</span> <span style="color: #a6e22e">diffGValue</span><span style="color: #f8f8f2">();</span>
+<span style="color: #75715e">#endif /* GAMEMANAGER_H_ */</span>
+</pre></div>
+</div>
+                    <div class="tab-pane fade" id="gamemanagerc" role="tabpanel" aria-labelledby="gamemanagerc-tab">
+                        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">/*</span>
+<span style="color: #75715e"> * GameManager.c</span>
+<span style="color: #75715e"> *</span>
+<span style="color: #75715e"> * Created: 2019-05-08 13:26:03</span>
+<span style="color: #75715e"> *  Author: fe4242bo-s</span>
+<span style="color: #75715e"> */</span> 
+
+<span style="color: #75715e">#define F_CPU 8000000UL</span>
+
+<span style="color: #75715e">#include &lt;avr/io.h&gt;</span>
+<span style="color: #75715e">#include &lt;stdint-gcc.h&gt;</span>
+<span style="color: #75715e">#include &lt;util/delay.h&gt;</span>
+<span style="color: #75715e">#include &quot;Components/Display/Display.h&quot;</span>
+
+<span style="color: #66d9ef">uint32_t</span> <span style="color: #f8f8f2">points</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">uint32_t</span> <span style="color: #f8f8f2">highscore</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+		 <span style="color: #f8f8f2">difficulty</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span>
+
+<span style="color: #75715e">/** Initializes game and expects that display is already initialized. Make sure to initialize display before game initialization. */</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">InitializeGame</span><span style="color: #f8f8f2">()</span> <span style="color: #f8f8f2">{</span>
+	<span style="color: #f8f8f2">points</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+	<span style="color: #f8f8f2">highscore</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">ReadFromEEPROM(</span><span style="color: #ae81ff">0xFF</span><span style="color: #f8f8f2">);</span>
+	<span style="color: #f8f8f2">updateText();</span>
+ <span style="color: #f8f8f2">}</span>
+ 
+ <span style="color: #75715e">/** Write data to permanent memory. */</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">WriteToEEPROM</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">unsigned</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">uiAddress,</span> <span style="color: #66d9ef">unsigned</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">ucData)</span> <span style="color: #f8f8f2">{</span>
+	 <span style="color: #66d9ef">while</span><span style="color: #f8f8f2">(EECR</span> <span style="color: #f92672">&amp;</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">EEPE));</span>
+	 
+	 <span style="color: #f8f8f2">EEAR</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">uiAddress;</span>
+	 <span style="color: #f8f8f2">EEDR</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">ucData;</span>
+	 
+	 <span style="color: #f8f8f2">EECR</span> <span style="color: #f92672">|=</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">EEMPE);</span>
+	 <span style="color: #f8f8f2">EECR</span> <span style="color: #f92672">|=</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">EEPE);</span>
+	 
+ <span style="color: #f8f8f2">}</span>
+ 
+  <span style="color: #75715e">/** Read data from permanent memory. */</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">ReadFromEEPROM</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">unsigned</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">uiAddress)</span> <span style="color: #f8f8f2">{</span>
+	  <span style="color: #66d9ef">while</span><span style="color: #f8f8f2">(EECR</span> <span style="color: #f92672">&amp;</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">EEPE));</span>
+
+	   <span style="color: #f8f8f2">EEAR</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">uiAddress;</span>
+	   <span style="color: #f8f8f2">EECR</span> <span style="color: #f92672">|=</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">EERE);</span>
+	   <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">EEDR;</span>
+ <span style="color: #f8f8f2">}</span>
+ 
+ <span style="color: #75715e">/** Will reset the game back to it&#39;s initial state. */</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">ResetGame</span><span style="color: #f8f8f2">()</span> <span style="color: #f8f8f2">{</span>
+	<span style="color: #f8f8f2">points</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+	<span style="color: #f8f8f2">difficulty</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span>
+	<span style="color: #f8f8f2">updateText();</span>
+ <span style="color: #f8f8f2">}</span>
+ 
+ <span style="color: #75715e">/** Updates the points on the LCD display. Will increment points. */</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">UpdatePoints</span><span style="color: #f8f8f2">()</span> <span style="color: #f8f8f2">{</span>
+	 
+	<span style="color: #f8f8f2">points</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">(points</span> <span style="color: #f92672">+</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">);</span>
+	<span style="color: #66d9ef">if</span><span style="color: #f8f8f2">(points</span><span style="color: #f92672">&gt;</span><span style="color: #f8f8f2">highscore){</span> 
+		<span style="color: #f8f8f2">highscore</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">points;</span>
+		<span style="color: #f8f8f2">WriteToEEPROM(</span><span style="color: #ae81ff">0xFF</span><span style="color: #f8f8f2">,highscore);</span>	
+	<span style="color: #f8f8f2">}</span>
+	<span style="color: #66d9ef">if</span><span style="color: #f8f8f2">(points</span><span style="color: #f92672">%</span><span style="color: #ae81ff">5</span><span style="color: #f92672">==</span><span style="color: #ae81ff">0</span> <span style="color: #f92672">&amp;&amp;</span> <span style="color: #f8f8f2">difficulty</span> <span style="color: #f92672">!=</span> <span style="color: #ae81ff">7</span><span style="color: #f8f8f2">){difficulty</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">;}</span>
+	<span style="color: #f8f8f2">updateText();</span>
+ <span style="color: #f8f8f2">}</span>
+ 
+ <span style="color: #75715e">/** Internal function that will do the updating of the text. */</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">updateText</span><span style="color: #f8f8f2">(){</span>
+	<span style="color: #f8f8f2">ClearDisplay();</span>
+	
+	<span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">txt09[</span><span style="color: #ae81ff">1</span><span style="color: #f92672">+</span><span style="color: #ae81ff">9</span><span style="color: #f8f8f2">]</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">;</span>
+	<span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">txt10[</span><span style="color: #ae81ff">2</span><span style="color: #f92672">+</span><span style="color: #ae81ff">9</span><span style="color: #f8f8f2">]</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">;</span>
+	
+	<span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(points</span><span style="color: #f92672">&lt;</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">){</span>
+		<span style="color: #f8f8f2">sprintf(txt09,</span><span style="color: #e6db74">&quot;Score: %dQn&quot;</span><span style="color: #f8f8f2">,points);</span>
+		<span style="color: #f8f8f2">SendString(txt09,</span><span style="color: #ae81ff">1</span><span style="color: #f92672">+</span><span style="color: #ae81ff">9</span><span style="color: #f8f8f2">);</span>	
+	<span style="color: #f8f8f2">}</span>
+	<span style="color: #66d9ef">else</span><span style="color: #f8f8f2">{</span>
+		<span style="color: #f8f8f2">sprintf(txt10,</span><span style="color: #e6db74">&quot;Score: %dQn&quot;</span><span style="color: #f8f8f2">,points);</span>
+		<span style="color: #f8f8f2">SendString(txt10,</span><span style="color: #ae81ff">2</span><span style="color: #f92672">+</span><span style="color: #ae81ff">9</span><span style="color: #f8f8f2">);</span>
+	<span style="color: #f8f8f2">}</span>
+	
+	<span style="color: #f8f8f2">txt09[</span><span style="color: #ae81ff">1</span><span style="color: #f92672">+</span><span style="color: #ae81ff">11</span><span style="color: #f8f8f2">]</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">;</span>
+	<span style="color: #f8f8f2">txt10[</span><span style="color: #ae81ff">2</span><span style="color: #f92672">+</span><span style="color: #ae81ff">11</span><span style="color: #f8f8f2">]</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">;</span>
+	
+	<span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(highscore</span><span style="color: #f92672">&lt;</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">){</span>
+		<span style="color: #f8f8f2">sprintf(txt09,</span><span style="color: #e6db74">&quot;Hi-Score: %d&quot;</span><span style="color: #f8f8f2">,highscore);</span>
+		<span style="color: #f8f8f2">SendString(txt09,</span><span style="color: #ae81ff">1</span><span style="color: #f92672">+</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">);</span>
+	<span style="color: #f8f8f2">}</span>
+	<span style="color: #66d9ef">else</span><span style="color: #f8f8f2">{</span>
+		<span style="color: #f8f8f2">sprintf(txt10,</span><span style="color: #e6db74">&quot;Hi-Score: %d&quot;</span><span style="color: #f8f8f2">,highscore);</span>
+		<span style="color: #f8f8f2">SendString(txt10,</span><span style="color: #ae81ff">2</span><span style="color: #f92672">+</span><span style="color: #ae81ff">10</span><span style="color: #f8f8f2">);</span>
+	<span style="color: #f8f8f2">}</span>
+	
+ <span style="color: #f8f8f2">}</span>
+ 
+ <span style="color: #75715e">/** Delay that is based on difficulty. Meaning that the use of this during a neopixel animation will make the neopixels spin faster the harder it gets! */</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">difficultyDelay</span><span style="color: #f8f8f2">(){</span>
+	 <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">8</span><span style="color: #f8f8f2">;i</span><span style="color: #f92672">&gt;</span><span style="color: #f8f8f2">difficulty;i</span><span style="color: #f92672">--</span><span style="color: #f8f8f2">)</span>
+	 <span style="color: #f8f8f2">{</span>
+		 <span style="color: #f8f8f2">_delay_ms(</span><span style="color: #ae81ff">40</span><span style="color: #f8f8f2">);</span>
+	 <span style="color: #f8f8f2">}</span>
+ <span style="color: #f8f8f2">}</span>
+ 
+ <span style="color: #75715e">/** R portion of the RGB value based on difficulty. */</span>
+ <span style="color: #66d9ef">uint8_t</span> <span style="color: #a6e22e">diffRValue</span><span style="color: #f8f8f2">(){</span>
+	 <span style="color: #66d9ef">uint8_t</span> <span style="color: #f8f8f2">r</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+	 <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">&lt;</span> <span style="color: #f8f8f2">difficulty;</span> <span style="color: #f8f8f2">i</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">)</span>
+	 <span style="color: #f8f8f2">{</span>
+		 <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">((r</span> <span style="color: #f92672">==</span> <span style="color: #ae81ff">100</span><span style="color: #f8f8f2">))</span> <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">r;</span>
+		 <span style="color: #f8f8f2">r</span> <span style="color: #f92672">+=</span> <span style="color: #ae81ff">10</span><span style="color: #f8f8f2">;</span>
+	 <span style="color: #f8f8f2">}</span>
+	 <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">r;</span>
+ <span style="color: #f8f8f2">}</span>
+ 
+ <span style="color: #75715e">/** G portion of the RGB value based on difficulty. */</span>
+ <span style="color: #66d9ef">uint8_t</span> <span style="color: #a6e22e">diffGValue</span><span style="color: #f8f8f2">(){</span>
+	 <span style="color: #66d9ef">uint8_t</span> <span style="color: #f8f8f2">g</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">80</span><span style="color: #f8f8f2">;</span>
+	 
+	 <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">&lt;</span> <span style="color: #f8f8f2">difficulty;</span> <span style="color: #f8f8f2">i</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">)</span>
+	 <span style="color: #f8f8f2">{</span>
+			 <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">((g</span> <span style="color: #f92672">==</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">))</span> <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">g;</span>
+		 	 <span style="color: #f8f8f2">g</span> <span style="color: #f92672">-=</span> <span style="color: #ae81ff">10</span><span style="color: #f8f8f2">;</span>
+	 <span style="color: #f8f8f2">}</span>
+	 <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">g;</span>
+ <span style="color: #f8f8f2">}</span>
+ 
+ <span style="color: #75715e">/** Ends the game. Updates High score and resets the game. */</span>
+ <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">EndGame</span><span style="color: #f8f8f2">()</span> <span style="color: #f8f8f2">{</span>
+	 <span style="color: #66d9ef">if</span><span style="color: #f8f8f2">(points</span><span style="color: #f92672">&gt;</span><span style="color: #f8f8f2">highscore){</span>
+		  <span style="color: #f8f8f2">highscore</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">points;</span>
+		  <span style="color: #f8f8f2">}</span>
+	 <span style="color: #f8f8f2">ResetGame();</span>
+ <span style="color: #f8f8f2">}</span>
+</pre></div>
+</div>
+                    <div class="tab-pane fade" id="displayh" role="tabpanel" aria-labelledby="displayh-tab">
+                        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">/*</span>
+                        <span style="color: #75715e"> * Display.h</span>
+                        <span style="color: #75715e"> *</span>
+                        <span style="color: #75715e"> * Created: 2019-04-09 12:46:33</span>
+                        <span style="color: #75715e"> *  Author: fe4242bo-s</span>
+                        <span style="color: #75715e"> */</span> 
+                        
+                        
+                        <span style="color: #75715e">#ifndef DISPLAY_H_</span>
+                        <span style="color: #75715e">#define DISPLAY_H_</span>
+                        
+                        <span style="color: #75715e">// Comments for the subroutines can be found in their .c file.</span>
+                        
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">SendCommand</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">unsigned</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">cmd);</span>
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">SendChar</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">unsigned</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">data);</span>
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">SendString</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">unsigned</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">data[],</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size);</span>
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">ClearDisplay</span><span style="color: #f8f8f2">();</span>
+                               <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">SkipToNextRow</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">atIndex);</span>
+                               <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">SendError</span><span style="color: #f8f8f2">();</span>
+                               <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">DisplayRoundTimer</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">data[],</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">atIndex</span> <span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size);</span> <span style="color: #75715e">// Don&#39;t know the size of array, so we pass it around instead.</span>
+                               <span style="color: #66d9ef">uint8_t</span> <span style="color: #a6e22e">ExtractEscapeCommand</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">data[],</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">atIndex,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size);</span>
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">init_LED</span><span style="color: #f8f8f2">();</span>
+                               <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">EnableTimerInterrupt</span><span style="color: #f8f8f2">();</span>
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">EditLCDText</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">uint8_t</span> <span style="color: #f8f8f2">index,</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">newData[],</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size);</span>
+                        
+                        
+                        
+                        <span style="color: #75715e">#endif /* DISPLAY_H_ */</span>
+                        </pre></div>
+                        
+                    </div>
+                    <div class="tab-pane fade" id="displayc" role="tabpanel" aria-labelledby="displayc-tab">
+                        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">/*</span>
+                        <span style="color: #75715e"> * Display.c</span>
+                        <span style="color: #75715e"> *</span>
+                        <span style="color: #75715e"> * Created: 2019-04-09 12:47:28</span>
+                        <span style="color: #75715e"> *  Author: fe4242bo-s</span>
+                        <span style="color: #75715e"> */</span> 
+                        
+                        <span style="color: #75715e">#define F_CPU 16000000</span>
+                        
+                        <span style="color: #75715e">#define REGISTER_SELECT 7</span>
+                        <span style="color: #75715e">#define READ_WRITE_SELECT 6</span>
+                        <span style="color: #75715e">#define ENABLE_SELECT 1</span>
+                        
+                        <span style="color: #75715e">#define SECOND_ROW_FIRST_COLUMN_LCD_ADDRESS 40</span>
+                        <span style="color: #75715e">#define INCREASE_ARRAY_BY_GAME_TIME_BITS 2</span>
+                        <span style="color: #75715e">#define DDRAM_ADDRESS_COMMAND 7</span>
+                        <span style="color: #75715e">#define LCD_SECOND_ROW_FIRST_ADDRESS 40</span>
+                        
+                        <span style="color: #75715e">// DDRD == Data port</span>
+                        <span style="color: #75715e">// DDRC == Control port</span>
+                        <span style="color: #75715e">#include &lt;avr/io.h&gt;</span>
+                        <span style="color: #75715e">#include &lt;util/delay.h&gt;</span>
+                        <span style="color: #75715e">#include &lt;avr/interrupt.h&gt;</span>
+                        
+                        <span style="color: #66d9ef">uint8_t</span> <span style="color: #f8f8f2">newIndex</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                        
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">timerCountActive</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #75715e">// If it is active, the string currently shown should be updated.</span>
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">interruptsEnabled</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                        
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">timerIndex</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #75715e">// The index of where the last timer was shown</span>
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">timerTextSize</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #75715e">// Size of the text that the timer is shown in</span>
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">timercount</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">60</span><span style="color: #f8f8f2">;</span>
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">linebreakIndex</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #75715e">// index where linebreak occurs</span>
+                        
+                        <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">timerCountStr[</span><span style="color: #ae81ff">2</span><span style="color: #f8f8f2">];</span>
+                        
+                        <span style="color: #75715e">/** Compare Match Timer interrupt used to get precise timings. This is used to send updates to the LCD at precisely at 1 update per second. */</span>
+                        <span style="color: #f8f8f2">ISR(TIMER1_COMPA_vect)</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">timercount</span><span style="color: #f92672">--</span><span style="color: #f8f8f2">;</span>
+                            <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(timercount</span> <span style="color: #f92672">!=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                                <span style="color: #f8f8f2">sprintf(timerCountStr,</span> <span style="color: #e6db74">&quot;%d&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">timercount);</span>
+                                <span style="color: #f8f8f2">EditLCDText(timerIndex,timerCountStr,</span> <span style="color: #ae81ff">2</span><span style="color: #f8f8f2">);</span>	
+                            <span style="color: #f8f8f2">}</span>
+                            
+                            <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(timercount</span> <span style="color: #f92672">==</span> <span style="color: #ae81ff">10</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                                <span style="color: #f8f8f2">ClearDisplay();</span>
+                                <span style="color: #f8f8f2">SendString(</span><span style="color: #e6db74">&quot;Yay!&quot;</span><span style="color: #f8f8f2">,</span><span style="color: #ae81ff">4</span><span style="color: #f8f8f2">);</span>
+                            <span style="color: #f8f8f2">}</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">/** Send command to the display (RS = 0) */</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #f8f8f2">SendCommand(</span><span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">cmd)</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">PORTB</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">cmd;</span>
+                            <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">&amp;=</span> <span style="color: #f92672">~</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">REGISTER_SELECT);</span>
+                            <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">&amp;=</span> <span style="color: #f92672">~</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">READ_WRITE_SELECT);</span>
+                            <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">|=</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">ENABLE_SELECT);</span>
+                            <span style="color: #f8f8f2">_delay_us(</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">);</span>
+                            <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">&amp;=</span> <span style="color: #f92672">~</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">ENABLE_SELECT);</span>
+                            <span style="color: #f8f8f2">_delay_ms(</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">);</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">/** Send data to the display (RS = 1) */</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #f8f8f2">SendChar(</span><span style="color: #66d9ef">unsigned</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">data)</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">PORTB</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">data;</span>
+                            <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">|=</span> <span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">REGISTER_SELECT;</span>
+                            <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">&amp;=</span> <span style="color: #f92672">~</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">READ_WRITE_SELECT);</span>
+                            
+                            <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">|=</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">ENABLE_SELECT);</span>
+                            <span style="color: #f8f8f2">_delay_us(</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">);</span>
+                            <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">&amp;=</span> <span style="color: #f92672">~</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">ENABLE_SELECT);</span>
+                            <span style="color: #f8f8f2">_delay_us(</span><span style="color: #ae81ff">50</span><span style="color: #f8f8f2">);</span>
+                            
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">// Hops to row 2.</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #f8f8f2">SkipToNextRow(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">atIndex)</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">SendCommand((</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">DDRAM_ADDRESS_COMMAND)</span> <span style="color: #f92672">+</span> <span style="color: #f8f8f2">LCD_SECOND_ROW_FIRST_ADDRESS);</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">/** Displays the time for a round. */</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #f8f8f2">DisplayRoundTimer(</span><span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">data[],</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">atIndex</span> <span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size)</span> <span style="color: #f8f8f2">{</span>
+                            
+                            <span style="color: #f8f8f2">timerIndex</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">atIndex;</span>
+                            <span style="color: #f8f8f2">timerTextSize</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">size;</span>
+                            <span style="color: #f8f8f2">data[atIndex]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;6&#39;</span><span style="color: #f8f8f2">;</span>
+                            <span style="color: #f8f8f2">data[atIndex</span> <span style="color: #f92672">+</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;0&#39;</span><span style="color: #f8f8f2">;</span>
+                            
+                            <span style="color: #f8f8f2">timerCountActive</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">/** Clears all data from the LCD DDRAM. */</span>
+                        <span style="color: #f8f8f2">ClearDisplay()</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">SendCommand(</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b00000001);</span> <span style="color: #75715e">// TODO: Setup macros for binary commands.</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">/** Extracts the escape command and performs actions based on what command was sent in. Returns the next index of char to read once the action is done. */</span>
+                        <span style="color: #66d9ef">uint8_t</span> <span style="color: #f8f8f2">ExtractEscapeCommand(</span><span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">data[],</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">atIndex,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size)</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(data[atIndex</span> <span style="color: #f92672">+</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">]</span> <span style="color: #f92672">==</span> <span style="color: #e6db74">&#39;n&#39;</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                                <span style="color: #f8f8f2">SkipToNextRow(size,atIndex);</span>
+                                <span style="color: #f8f8f2">linebreakIndex</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">atIndex;</span>
+                                <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">atIndex</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">atIndex</span> <span style="color: #f92672">+</span> <span style="color: #ae81ff">2</span><span style="color: #f8f8f2">;</span>
+                            <span style="color: #f8f8f2">}</span>
+                            <span style="color: #66d9ef">else</span> <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(data[atIndex</span> <span style="color: #f92672">+</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">]</span> <span style="color: #f92672">==</span> <span style="color: #e6db74">&#39;t&#39;</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                                <span style="color: #f8f8f2">DisplayRoundTimer(data,atIndex,size);</span>
+                                <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">atIndex</span> <span style="color: #f92672">-</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span> <span style="color: #75715e">// The escape character has been replaced by timer, write out new chars.</span>
+                            <span style="color: #f8f8f2">}</span>
+                            <span style="color: #66d9ef">else</span> <span style="color: #f8f8f2">{</span> <span style="color: #75715e">// if it isn&#39;t a letter then it&#39;s likely a number indicating the padding, NOTE: Padding should be a integer value between 0-9</span>
+                                <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(isdigit(data[atIndex</span> <span style="color: #f92672">+</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">]))</span> <span style="color: #f8f8f2">{</span>
+                                    <span style="color: #75715e">// TODO: Program logic of padding.</span>
+                                <span style="color: #f8f8f2">}</span> <span style="color: #66d9ef">else</span> <span style="color: #f8f8f2">{</span>
+                                    
+                                <span style="color: #f8f8f2">}</span>
+                            <span style="color: #f8f8f2">}</span>
+                            <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">atIndex;</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">/** Sends a string to the LCD and displays it. */</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #f8f8f2">SendString(</span><span style="color: #66d9ef">unsigned</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">data[],</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size)</span> <span style="color: #f8f8f2">{</span>
+                        
+                            <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(timerCountActive)</span> <span style="color: #f8f8f2">{</span> 
+                                 <span style="color: #f8f8f2">TCCR1B</span> <span style="color: #f92672">&amp;=</span> <span style="color: #f92672">~</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span> <span style="color: #f92672">&lt;&lt;</span> <span style="color: #f8f8f2">CS12);</span>
+                                 <span style="color: #f8f8f2">timerCountActive</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                                 <span style="color: #f8f8f2">interruptsEnabled</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> 
+                                 <span style="color: #f8f8f2">}</span>
+                            
+                            <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">&lt;</span> <span style="color: #f8f8f2">size;i</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">)</span>
+                            <span style="color: #f8f8f2">{</span>
+                                    <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(data[i]</span> <span style="color: #f92672">==</span> <span style="color: #e6db74">&#39;Q&#39;</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                                        <span style="color: #f8f8f2">newIndex</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">ExtractEscapeCommand(data,i,size);</span>
+                                        <span style="color: #f8f8f2">i</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">newIndex;</span>
+                                        <span style="color: #66d9ef">continue</span><span style="color: #f8f8f2">;</span>
+                                    <span style="color: #f8f8f2">}</span>
+                                    <span style="color: #f8f8f2">PORTB</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">data[i];</span>
+                                    <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">|=</span> <span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">REGISTER_SELECT;</span>
+                                    <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">&amp;=</span> <span style="color: #f92672">~</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">READ_WRITE_SELECT);</span>
+                                    
+                                    <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">|=</span> <span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">ENABLE_SELECT);</span>
+                                    <span style="color: #f8f8f2">_delay_us(</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">);</span>
+                                    <span style="color: #f8f8f2">PORTC</span> <span style="color: #f92672">&amp;=</span> <span style="color: #f92672">~</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">ENABLE_SELECT);</span>
+                                    <span style="color: #f8f8f2">_delay_ms(</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">);</span>	
+                            <span style="color: #f8f8f2">}</span>
+                            <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(timerCountActive</span> <span style="color: #f92672">&amp;&amp;</span> <span style="color: #f92672">!</span><span style="color: #f8f8f2">interruptsEnabled)</span> <span style="color: #f8f8f2">{</span>
+                                <span style="color: #f8f8f2">EnableTimerInterrupt();</span>
+                            <span style="color: #f8f8f2">}</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">/** Changes a portion of the text displayed on the LCD at the specified index. */</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #f8f8f2">EditLCDText(</span><span style="color: #66d9ef">uint8_t</span> <span style="color: #f8f8f2">index,</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">newData[],</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">size)</span> <span style="color: #f8f8f2">{</span> <span style="color: #75715e">// Second row is from 40 to 67</span>
+                            
+                            <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(index</span> <span style="color: #f92672">&gt;</span> <span style="color: #ae81ff">16</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">SendCommand((</span><span style="color: #ae81ff">1</span><span style="color: #f92672">&lt;&lt;</span><span style="color: #f8f8f2">DDRAM_ADDRESS_COMMAND)</span> <span style="color: #f92672">+</span> <span style="color: #f8f8f2">LCD_SECOND_ROW_FIRST_ADDRESS</span> <span style="color: #f92672">+</span> <span style="color: #f8f8f2">(timerIndex</span> <span style="color: #f92672">-</span> <span style="color: #f8f8f2">linebreakIndex)</span> <span style="color: #f92672">-</span> <span style="color: #ae81ff">3</span><span style="color: #f8f8f2">);</span> <span style="color: #75715e">// -3 offset to skip escape chars.</span>
+                            <span style="color: #f8f8f2">}</span> <span style="color: #66d9ef">else</span> <span style="color: #f8f8f2">{</span>
+                                <span style="color: #75715e">// First row...</span>
+                            <span style="color: #f8f8f2">}</span>
+                            <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">&lt;</span> <span style="color: #f8f8f2">size;</span> <span style="color: #f8f8f2">i</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">)</span>
+                            <span style="color: #f8f8f2">{</span>
+                                <span style="color: #f8f8f2">SendChar(newData[i]);</span>
+                            <span style="color: #f8f8f2">}</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">/** Enables timer interrupts. */</span>
+                        <span style="color: #f8f8f2">EnableTimerInterrupt()</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">sei();</span>
+                            <span style="color: #f8f8f2">TCCR1B</span> <span style="color: #f92672">|=</span> <span style="color: #ae81ff">1</span> <span style="color: #f92672">&lt;&lt;</span> <span style="color: #f8f8f2">WGM12;</span> <span style="color: #75715e">// CTC select</span>
+                            <span style="color: #f8f8f2">TCCR1B</span> <span style="color: #f92672">|=</span> <span style="color: #ae81ff">1</span> <span style="color: #f92672">&lt;&lt;</span> <span style="color: #f8f8f2">CS12;</span> <span style="color: #75715e">// prescaler 256</span>
+                            <span style="color: #f8f8f2">TIMSK1</span> <span style="color: #f92672">|=</span> <span style="color: #ae81ff">1</span> <span style="color: #f92672">&lt;&lt;</span> <span style="color: #f8f8f2">OCIE1A;</span> <span style="color: #75715e">// the Timer/Counter1 Output Compare A Match interrupt is enabled</span>
+                            
+                            <span style="color: #f8f8f2">OCR1A</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">(F_CPU</span><span style="color: #f92672">/</span><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">*</span><span style="color: #ae81ff">2</span><span style="color: #f92672">*</span><span style="color: #ae81ff">256</span><span style="color: #f8f8f2">)</span> <span style="color: #f92672">-</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">);</span> <span style="color: #75715e">// 0.48 is the time for calculation, calculated to achieve appx 1 interrupt per second. 16_000_000/(0.48*2*256) equal appx = 65_000/ 2^16 (16 bit timer)</span>
+                            <span style="color: #f8f8f2">interruptsEnabled</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span>
+                        <span style="color: #f8f8f2">}</span>
+                        
+                        <span style="color: #75715e">/** Initialize the display */</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #f8f8f2">LCD_init(</span><span style="color: #66d9ef">void</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">DDRC</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b11000010;</span>
+                            <span style="color: #f8f8f2">DDRB</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0xFF</span><span style="color: #f8f8f2">;</span>
+                            <span style="color: #f8f8f2">SendCommand(</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b00111110);</span> <span style="color: #75715e">// Function set / 8 bit</span>
+                            <span style="color: #f8f8f2">SendCommand(</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b00001110);</span> <span style="color: #75715e">// Display on</span>
+                            <span style="color: #f8f8f2">SendCommand(</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b00000010);</span> <span style="color: #75715e">// Entry Mode // auto increase</span>
+                            <span style="color: #75715e">//SendCommand(0b00000010); //	return home</span>
+                            <span style="color: #f8f8f2">SendCommand(</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b00000001);</span> <span style="color: #75715e">// Clear display</span>
+                        <span style="color: #f8f8f2">}</span>
+                        </pre></div>
+                        
+                    </div>
+                    <div class="tab-pane fade" id="neopixelh" role="tabpanel" aria-labelledby="neopixelh-tab">
+                        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">/*</span>
+                        <span style="color: #75715e"> * NeoPixel.h</span>
+                        <span style="color: #75715e"> *</span>
+                        <span style="color: #75715e"> * Created: 2019-04-12 18:00:18</span>
+                        <span style="color: #75715e"> *  Author: fe4242bo-s</span>
+                        <span style="color: #75715e"> */</span> 
+                        
+                        
+                        <span style="color: #75715e">#ifndef NEOPIXEL_H_</span>
+                        <span style="color: #75715e">#define NEOPIXEL_H_</span>
+                        
+                        <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">AddPixel</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">x,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">r,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">g,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">b);</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">clearPixels</span><span style="color: #f8f8f2">();</span>
+                        
+                        
+                        <span style="color: #75715e">#endif /* NEOPIXEL_H_ */</span>
+                        </pre></div>
+                        
+                    </div>
+                    <div class="tab-pane fade" id="neopixelc" role="tabpanel" aria-labelledby="neopixelc-tab">
+                        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">/*</span>
+                        <span style="color: #75715e"> * NeoPixel.c</span>
+                        <span style="color: #75715e"> *</span>
+                        <span style="color: #75715e"> * Created: 2019-04-12 18:00:36</span>
+                        <span style="color: #75715e"> *  Author: fe4242bo-s</span>
+                        <span style="color: #75715e"> */</span> 
+                        
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">Reset</span><span style="color: #f8f8f2">();</span>
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">Send_One</span><span style="color: #f8f8f2">();</span>
+                        <span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">Send_Zero</span><span style="color: #f8f8f2">();</span>
+                        
+                        <span style="color: #75715e">#include &quot;../../Constants/GameStrings.h&quot;</span>
+                        
+                        <span style="color: #75715e">#include &lt;math.h&gt;</span>
+                        
+                        <span style="color: #75715e">/** Struct to define the RGB values for a pixel. Used to enumerate through an array of pixels. */</span>
+                        <span style="color: #66d9ef">typedef</span> <span style="color: #66d9ef">struct</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">r;</span>
+                            <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">g;</span>
+                            <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">b;</span>
+                        <span style="color: #f8f8f2">}</span> <span style="color: #66d9ef">pixel_t</span><span style="color: #f8f8f2">;</span>
+                        
+                        <span style="color: #66d9ef">pixel_t</span> <span style="color: #f8f8f2">leds[</span><span style="color: #ae81ff">16</span><span style="color: #f8f8f2">];</span>
+                        
+                        <span style="color: #75715e">/** Resets all pixels to their default values. */</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">clearPixels</span><span style="color: #f8f8f2">()</span>
+                        <span style="color: #f8f8f2">{</span>
+                            <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">&lt;</span> <span style="color: #ae81ff">20</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">i</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                                <span style="color: #f8f8f2">leds[i].r</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                                <span style="color: #f8f8f2">leds[i].g</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                                <span style="color: #f8f8f2">leds[i].b</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span>
+                            <span style="color: #f8f8f2">}</span>
+                            
+                            <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">j</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">j</span> <span style="color: #f92672">&lt;</span> <span style="color: #ae81ff">24</span> <span style="color: #f92672">*</span> <span style="color: #ae81ff">16</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">j</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">)</span>
+                            <span style="color: #f8f8f2">{</span>
+                                <span style="color: #f8f8f2">Send_Zero();</span>
+                            <span style="color: #f8f8f2">}</span>
+                            <span style="color: #f8f8f2">Reset();</span>
+                        <span style="color: #f8f8f2">}</span>
+                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">bitCompare;</span>
+                        
+                        <span style="color: #75715e">/** Sets the specified pixel to the specified RGB values. */</span>
+                        <span style="color: #66d9ef">void</span> <span style="color: #a6e22e">setPixel</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">x,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">r,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">g,</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">b)</span> <span style="color: #f8f8f2">{</span>
+                            <span style="color: #f8f8f2">leds[x].r</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">r;</span>
+                            <span style="color: #f8f8f2">leds[x].g</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">g;</span>
+                            <span style="color: #f8f8f2">leds[x].b</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">b;</span>
+                            
+                            <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">i</span> <span style="color: #f92672">&lt;</span> <span style="color: #ae81ff">16</span><span style="color: #f8f8f2">;</span> <span style="color: #f8f8f2">i</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+                                <span style="color: #75715e">//Green</span>
+                                <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">n</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">leds[i].g;</span>
+                                <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">d</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b10000000;</span>
+                                <span style="color: #66d9ef">for</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">j</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;j</span><span style="color: #f92672">&lt;</span><span style="color: #ae81ff">8</span><span style="color: #f8f8f2">;j</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">){</span>
+                                    <span style="color: #f8f8f2">bitCompare</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">(n</span><span style="color: #f92672">&amp;</span><span style="color: #f8f8f2">d);</span>
+                                    <span style="color: #66d9ef">if</span><span style="color: #f8f8f2">(bitCompare</span><span style="color: #f92672">&gt;</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">){</span>
+                                        <span style="color: #f8f8f2">Send_One();</span>
+                                    <span style="color: #f8f8f2">}</span>
+                                    <span style="color: #66d9ef">else</span><span style="color: #f8f8f2">{</span>
+                                        <span style="color: #f8f8f2">Send_Zero();</span>
+                                    <span style="color: #f8f8f2">}</span>
+                                            
+                                    <span style="color: #f8f8f2">d</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">d</span><span style="color: #f92672">&gt;&gt;</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span>
+                                <span style="color: #f8f8f2">}</span>
+                                
+                                <span style="color: #75715e">//Red</span>
+                                <span style="color: #f8f8f2">n</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">leds[i].r;</span>
+                                <span style="color: #f8f8f2">d</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b10000000;</span>
+                                        
+                                <span style="color: #66d9ef">for</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">j</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;j</span><span style="color: #f92672">&lt;</span><span style="color: #ae81ff">8</span><span style="color: #f8f8f2">;j</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">){</span>
+                                    <span style="color: #f8f8f2">bitCompare</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">(n</span><span style="color: #f92672">&amp;</span><span style="color: #f8f8f2">d);</span>
+                                    <span style="color: #66d9ef">if</span><span style="color: #f8f8f2">(bitCompare</span><span style="color: #f92672">&gt;</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">){</span>
+                                        <span style="color: #f8f8f2">Send_One();</span>
+                                    <span style="color: #f8f8f2">}</span>
+                                    <span style="color: #66d9ef">else</span><span style="color: #f8f8f2">{</span>
+                                        <span style="color: #f8f8f2">Send_Zero();</span>
+                                    <span style="color: #f8f8f2">}</span>
+                                            
+                                    <span style="color: #f8f8f2">d</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">d</span><span style="color: #f92672">&gt;&gt;</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span>
+                                <span style="color: #f8f8f2">}</span>
+                                
+                                <span style="color: #75715e">//BLUE</span>
+                                <span style="color: #f8f8f2">n</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">leds[i].b;</span>
+                                <span style="color: #f8f8f2">d</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b10000000;</span>
+                                <span style="color: #66d9ef">for</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">j</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">;j</span><span style="color: #f92672">&lt;</span><span style="color: #ae81ff">8</span><span style="color: #f8f8f2">;j</span><span style="color: #f92672">++</span><span style="color: #f8f8f2">){</span>
+                                    <span style="color: #f8f8f2">bitCompare</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">(n</span><span style="color: #f92672">&amp;</span><span style="color: #f8f8f2">d);</span>
+                                    <span style="color: #66d9ef">if</span><span style="color: #f8f8f2">(bitCompare</span><span style="color: #f92672">&gt;</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">){</span>
+                                        <span style="color: #f8f8f2">Send_One();</span>
+                                    <span style="color: #f8f8f2">}</span>
+                                    <span style="color: #66d9ef">else</span><span style="color: #f8f8f2">{</span>
+                                        <span style="color: #f8f8f2">Send_Zero();</span>
+                                    <span style="color: #f8f8f2">}</span>
+                                    
+                                    <span style="color: #f8f8f2">d</span><span style="color: #f92672">=</span><span style="color: #f8f8f2">d</span><span style="color: #f92672">&gt;&gt;</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span>
+                                <span style="color: #f8f8f2">}</span>
+                            <span style="color: #f8f8f2">}</span>
+                        
+                            <span style="color: #f8f8f2">Reset();</span>
+                        <span style="color: #f8f8f2">}</span>
+                        </pre></div>
+                        
+                    </div>
+                    <div class="tab-pane fade" id="gamestringsh" role="tabpanel" aria-labelledby="gamestringsh-tab">
+                        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">/*</span>
+<span style="color: #75715e"> * GameStrings.h</span>
+<span style="color: #75715e"> *</span>
+<span style="color: #75715e"> * Created: 2019-04-10 15:07:37</span>
+<span style="color: #75715e"> *  Author: fe4242bo-s</span>
+<span style="color: #75715e"> */</span> 
+
+<span style="color: #75715e">/** This file will only consist of hardcoded strings.  */</span>
+
+<span style="color: #75715e">#ifndef GAMESTRINGS_H_</span>
+<span style="color: #75715e">#define GAMESTRINGS_H_</span>
+<span style="color: #75715e">// if \n calculate for new line, if \CONSTANT add padding. {xx} is the time.</span>
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">START_TEXT[</span><span style="color: #ae81ff">29</span><span style="color: #f8f8f2">]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;4 in a row</span><span style="color: #ae81ff">\n</span><span style="color: #e6db74"> Press 1 to start&quot;</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">PLAYER_ONE_SETUP[</span><span style="color: #ae81ff">23</span><span style="color: #f8f8f2">]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;Player 1</span><span style="color: #ae81ff">\n</span><span style="color: #e6db74"> Choose color&quot;</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">PLAYER_TWO_SETUP[</span><span style="color: #ae81ff">23</span><span style="color: #f8f8f2">]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;Player 2</span><span style="color: #ae81ff">\n</span><span style="color: #e6db74"> Choose color&quot;</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">P1_CHOICE[]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;P1 Choose column </span><span style="color: #ae81ff">\n</span><span style="color: #e6db74"> {xx}&quot;</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">P2_CHOICE[]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;P2 Choose column </span><span style="color: #ae81ff">\n</span><span style="color: #e6db74"> {xx}&quot;</span><span style="color: #f8f8f2">;</span>
+	
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">P1_WON[]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;Player 1 WON! </span><span style="color: #ae81ff">\n</span><span style="color: #e6db74"> {xx}&quot;</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">P2_WON[]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;Player 2 WON! </span><span style="color: #ae81ff">\n</span><span style="color: #e6db74"> {xx}&quot;</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">GAME_TIE[]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;TIE! </span><span style="color: #ae81ff">\n</span><span style="color: #e6db74"> {xx}&quot;</span><span style="color: #f8f8f2">;</span>
+
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span> <span style="color: #f8f8f2">GAME_PAUSE[]</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;Game Paused </span><span style="color: #ae81ff">\n</span><span style="color: #e6db74"> Press 1 to start&quot;</span><span style="color: #f8f8f2">;</span>
+<span style="color: #66d9ef">extern</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">nPixels</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">16</span><span style="color: #f8f8f2">;</span>
+
+<span style="color: #75715e">#endif /* GAMESTRINGS_H_ */</span>
+</pre></div>
+                    </div>
+                    <div class="tab-pane fade" id="NeoPixelTimings" role="tabpanel" aria-labelledby="NeoPixelTimings-tab">
+                            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">/</span><span style="color: #f92672">*</span>
+ <span style="color: #f92672">*</span> <span style="color: #f8f8f2">NeoPixelTiming.s</span>
+ <span style="color: #f92672">*</span>
+ <span style="color: #f92672">*</span> <span style="color: #f8f8f2">Created:</span> <span style="color: #ae81ff">2019</span><span style="color: #f92672">-</span><span style="color: #ae81ff">04</span><span style="color: #f92672">-</span><span style="color: #ae81ff">17</span> <span style="color: #ae81ff">10</span><span style="color: #f8f8f2">:</span><span style="color: #ae81ff">30</span><span style="color: #f8f8f2">:</span><span style="color: #ae81ff">49</span>
+ <span style="color: #f92672">*</span>  <span style="color: #f8f8f2">Author:</span> <span style="color: #f8f8f2">fe4242bo</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">s</span>
+ <span style="color: #f92672">*</span><span style="color: #f8f8f2">/</span> 
+
+ 
+
+ <span style="color: #f8f8f2">.global</span> <span style="color: #f8f8f2">Reset</span>
+ <span style="color: #f8f8f2">.global</span> <span style="color: #f8f8f2">Send_One</span>
+ <span style="color: #f8f8f2">.global</span> <span style="color: #f8f8f2">Send_Zero</span>
+
+<span style="color: #960050; background-color: #1e0010">#</span><span style="color: #f8f8f2">define</span> <span style="color: #f8f8f2">DATA_PORT</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">x0B</span>
+<span style="color: #960050; background-color: #1e0010">#</span><span style="color: #f8f8f2">define</span> <span style="color: #f8f8f2">DATA_DDR</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">x0A</span>
+
+
+ <span style="color: #f8f8f2">Reset:</span> 
+	
+	<span style="color: #f8f8f2">nop x 396</span>
+	<span style="color: #f8f8f2">ret</span>
+
+
+<span style="color: #f8f8f2">Send_One:</span> 
+	<span style="color: #f8f8f2">ldi</span> <span style="color: #f8f8f2">r22,</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b10000000</span>
+	<span style="color: #f8f8f2">out</span> <span style="color: #f8f8f2">DATA_PORT,</span> <span style="color: #f8f8f2">r22</span>
+	<span style="color: #f8f8f2">nop</span>
+	<span style="color: #f8f8f2">nop</span>
+	<span style="color: #f8f8f2">nop</span>
+	<span style="color: #f8f8f2">nop</span>
+	<span style="color: #f8f8f2">ldi</span> <span style="color: #f8f8f2">r22,</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b00000000</span> <span style="color: #f8f8f2">//</span> <span style="color: #ae81ff">700</span><span style="color: #f8f8f2">/</span><span style="color: #ae81ff">125</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">5</span><span style="color: #f8f8f2">.</span><span style="color: #ae81ff">6</span> <span style="color: #f8f8f2">clock</span> <span style="color: #f8f8f2">cycles</span>
+	<span style="color: #f8f8f2">out</span> <span style="color: #f8f8f2">DATA_PORT,</span> <span style="color: #f8f8f2">r22</span>
+	<span style="color: #f8f8f2">nop</span> <span style="color: #f8f8f2">//</span> <span style="color: #ae81ff">600</span><span style="color: #f8f8f2">/</span><span style="color: #ae81ff">125</span> <span style="color: #f92672">=</span> <span style="color: #ae81ff">4</span><span style="color: #f8f8f2">.</span><span style="color: #ae81ff">8</span> <span style="color: #f8f8f2">clock</span> <span style="color: #f8f8f2">cycles</span>
+ <span style="color: #f8f8f2">ret</span>
+
+
+<span style="color: #f8f8f2">Send_Zero:</span>
+	
+	<span style="color: #f8f8f2">ldi</span> <span style="color: #f8f8f2">r18,</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">b10000000</span>
+	<span style="color: #f8f8f2">out</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">X0B,</span> <span style="color: #f8f8f2">r18</span>
+	<span style="color: #f8f8f2">nop</span>
+
+	<span style="color: #f8f8f2">ldi</span> <span style="color: #f8f8f2">r18,</span> <span style="color: #ae81ff">0</span>
+	<span style="color: #f8f8f2">out</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">X0B,</span> <span style="color: #f8f8f2">r18</span>
+
+	<span style="color: #f8f8f2">nop</span>
+	<span style="color: #f8f8f2">nop</span>
+
+	<span style="color: #f8f8f2">ret</span>
+
+
+	
+</pre></div>
+
+                        </div>
                 </div>
-                <div class="col-6">
-                    
+            </div>
+            <div class="col-5">
+                <div class="textcol">
+                    <h2 class="lowkeyTitle">Någon titel här (lite om koden)</h2>
+                    <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.</p><br>
+                    <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.</p><br>
+                    <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="firstContent container-fluid">
+            <div class="row">
+                <div class="textcol col-sm-12 col-md-4 col-lg-4">
+                    <h2 class="lowkeyTitle">Någon titel här (Features)</h2>
+                    <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est laborum.</p><br>
+                    <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est laborum.</p><br>
+                    <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est laborum.</p>
+                </div>
+                <div class="featcol col-sm-12 col-md-8 col-lg-8">
+                    <h2 class="animated bounce delay-2s" id="atemga">ATMEGA 1284</h2>
+                    <h2 id="neo">NeoPixels</h2>
+                    <h2 id="lcd">LCD Display</h2>
+                    <h2 id="eeprom">EEPROM</h2>
+                    <h2 id="timers">Timers</h2>
                 </div>
             </div>
         </div>
 
 </body>
+
 </html>

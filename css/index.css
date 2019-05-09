@@ -1,14 +1,88 @@
 body {
-    background-color: #1e272e;
+    background-color: #07090a;
 }
 
 .title {
     color: whitesmoke;
-    font-family: 'BLACKHAWK';
+    font-family: 'Baloo Bhai';
     margin: auto;
     text-align: center;
-    font-size: 80px;
+    font-size: 160px;
 }
 .titleContainer {
     margin-top: 5vh;
+}
+.bodyText {
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: whitesmoke;
+
+}
+
+.firstContent {
+    padding: 200px;
+    margin: auto;
+}
+
+.transparentImg {
+    width: 600px;
+    transform: rotate(20deg);
+}
+
+.imgCont {
+    margin: auto;
+    text-align: center;
+}
+
+.lowkeyTitle {
+    font-size: 34px;
+    color: whitesmoke;
+    font-family: 'Baloo Bhai';
+}
+
+.textcol {
+  /*background-color: #e67e22;*/
+    padding: 30px;
+}
+
+
+#atemga {
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: end;
+    padding: 64px 16px 32px 16px;
+}
+#neo {
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: end;
+    padding: 16px 16px 32px 16px;
+}
+#lcd {
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: end;
+    padding: 16px 16px 32px 16px;
+}
+#eeprom {
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 52px;
+    text-align: end;
+    padding: 16px 16px 32px 16px;
+}
+#timers {
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: end;
+    padding: 16px 16px 32px 16px;
 }
