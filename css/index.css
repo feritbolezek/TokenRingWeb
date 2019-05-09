@@ -1,0 +1,14 @@
+body {
+    background-color: #1e272e;
+}
+
+.title {
+    color: whitesmoke;
+    font-family: 'BLACKHAWK';
+    margin: auto;
+    text-align: center;
+    font-size: 80px;
+}
+.titleContainer {
+    margin-top: 5vh;
+}
