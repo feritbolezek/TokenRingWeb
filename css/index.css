@@ -25,7 +25,7 @@ body {
 }
 
 .transparentImg {
-    width: 600px;
+    width: 700px;
     transform: rotate(20deg);
 }
 
@@ -85,4 +85,41 @@ body {
     font-size: 48px;
     text-align: end;
     padding: 16px 16px 32px 16px;
+}
+#interrupts {
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 44px;
+    text-align: end;
+    padding: 16px 16px 32px 16px;
+}
+#buttons {
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: end;
+    padding: 16px 16px 32px 16px;
+}
+
+.bd-example {
+    margin: 3vw 10vw 10vw 10vw;
+}
+
+.carousel-item {
+    height: 1000px;
+} 
+.carousel-item img{
+    height: 1000px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#galleri {
+    color: whitesmoke;
+    font-family: 'Baloo Bhai';
+    font-size: 90px;
 }
